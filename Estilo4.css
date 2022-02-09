@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Mukta:wght@200&family=Parisienne&family=Supermercado+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul.menu{
+    list-style: none;
+    padding: 0;
+    background: #9FD5D1;
+    max-width: max-content;
+    margin:auto;
+    border-radius: 5px;
+}
+
+ul.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+ul.menu li{
+    font-family: 'Supermercado ONE';
+    display: inline-block;
+    text-align: center;
+}
+
+div.Titulo{
+    text-align: center;
+    margin-top: 0px;
+    font-family: 'Cookie';
+    font-size: 50px;
+    color: aliceblue;
+}
+
+body {
+    font-family: 'Mukta';
+    background: url(FONDOAQUA.jpg);
+}
+
+#main-container{
+    margin:70px auto;
+    width: 800px;
+}
+
+table {
+    background-color: white;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 20px;
+}
+
+thead{
+    background-color: #9FD5D1;
+    border-bottom: solid 5px #3F888F;
+    color: black;
+}
+
+tr:nth-child(even){
+    background-color: #B2FFFF;
+}
+
+tr:hover td{
+    background-color: blue;
+    background: #256D7B ;
+}

@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Montserrat:wght@100&family=Mukta:wght@200&family=Parisienne&family=Supermercado+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(FONDOCEL.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ul.menu{
+    list-style: none;
+    padding: 0;
+    background: #332F2C;
+    max-width: max-content;
+    margin:auto;
+    border-radius: 5px;
+}
+
+ul.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+ul.menu li{
+    font-family: 'Supermercado ONE';
+    display: inline-block;
+    text-align: center;
+}
+section h1{
+    font-family: 'Supermercado ONE';
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+div.Contenido {
+    font-family: 'Supermercado ONE';
+    text-align: center;
+    color: white;
+}
+
+div.Todo{
+    text-align: center;
+}
+
+div.Info p{
+    font-family: 'Mukta';
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 20px;
+}
+
+div.Link a{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
