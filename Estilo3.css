@@ -53,10 +53,17 @@ div.Info p{
     color: white;
     text-align: center;
     padding-top: 200px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 
 div.Link a{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+div.Info2 p{
+    font-family: 'Mukta';
     color: white;
     text-align: center;
     padding-top: 50px;
